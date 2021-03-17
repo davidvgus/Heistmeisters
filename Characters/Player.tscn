@@ -14,10 +14,10 @@ script = ExtResource( 2 )
 texture = ExtResource( 3 )
 
 [node name="Torch" parent="." index="2" instance=ExtResource( 4 )]
-position = Vector2( -13.7667, 0 )
-scale = Vector2( 1.02032, 1 )
+position = Vector2( 16.9452, 1.84414 )
+scale = Vector2( 1.02265, 1 )
 texture = ExtResource( 5 )
-offset = Vector2( 350, 0 )
+offset = Vector2( 320, 0 )
 shadow_enabled = true
 shadow_color = Color( 0.0862745, 0.0784314, 0.0784314, 0 )
 
