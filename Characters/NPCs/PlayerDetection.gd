@@ -12,13 +12,12 @@ func _ready():
 
 func _process(delta):
     if Player_in_FOV():
-        $Torch.color = WHITE
-    else:
         $Torch.color = RED
+    else:
+        $Torch.color = WHITE
 
 
 func Player_in_FOV():
-    print(global_rotation_degrees)
     var npc_facing_direction = Vector2(1,0).rotated(global_rotation)
     var direction_to_Player = (Player.position - global_position).normalized()
 
